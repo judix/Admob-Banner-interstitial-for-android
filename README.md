@@ -1,4 +1,5 @@
-# Admob
+# Admob Banner & Interstitial Ads
+
 Adding admob adverts to your android studio easy
 
 <h3> Banner </h3>
