@@ -3,8 +3,7 @@
 Adding admob adverts to your android studio easy
 
 <h3> Banner </h3>
-
-![Installation steps](img/Screenshot_1543437233.png)
+![Banner ads](screenshot/Screenshot_1543437233.png)
 
 <h3> Interstitial </h3>
-<img src="https://i.hizliresim.com/pbmE5o.png">
+![Interstitial ads](screenshot/Screenshot_1543437239.png)
