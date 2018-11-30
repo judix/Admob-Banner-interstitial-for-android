@@ -2,7 +2,7 @@
 
 ### Adding admob adverts to your android studio easy
 
-* Create a 1st grade library
+* Create a 1st ``build.grade`` library
 ``
 implementation 'com.google.android.gms:play-services-ads:17.1.1'
 ``
@@ -22,7 +22,8 @@ implementation 'com.google.android.gms:play-services-ads:17.1.1'
 ```
 * Before loading ads, have your app initialize the Mobile Ads SDK by calling ``MobileAds.initialize()`` with your AdMob App ID. This needs to be done only once, ideally at app launch.
 
-Here's an example of how to call the ``initialize()`` method in an Activity:
+    Here's an example of how to call the ``initialize()`` method in an Activity
+    Example ``MainActivity`` (excerpt)
 ```
  // Sample AdMob app ID: ca-app-pub-3940256099942544~3347511713
         MobileAds.initialize(this, "YOUR_ADMOB_APP_ID");
@@ -32,7 +33,7 @@ Here's an example of how to call the ``initialize()`` method in an Activity:
  <uses-permission android:name="android.permission.INTERNET"/>
  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
 ```
-* 4.Added the ``Admob.java`` class. [Go to ``Admob.java`` class](/app/src/main/java/com/judix/admob/Admob.java )
+* 4.Added the ``Admob.java`` class. Go to[``Admob.java``](/app/src/main/java/com/judix/admob/Admob.java )
 * 5.advertising activity to show oncreate activity:
 ```
   MobileAds.initialize(this, "ca-app-pub-3940256099942544~3347511713"); //TEST KEY
