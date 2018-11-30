@@ -6,6 +6,7 @@
 ``
 implementation 'com.google.android.gms:play-services-ads:17.1.1'
 ``
+
 * 2.Add your AdMob App ID to your app's ``AndroidManifest.xml`` file by adding the ``<meta-data>`` tag shown below. You can find your App ID in the AdMob UI. For ``android:value`` insert your own AdMob App ID in quotes, as shown below.
 ```
 <manifest>
@@ -31,7 +32,7 @@ Here's an example of how to call the ``initialize()`` method in an Activity:
  <uses-permission android:name="android.permission.INTERNET"/>
  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
 ```
-* 4.Added the ``Admob.java`` class.
+* 4.Added the ``Admob.java`` class. [Go to ``Admob.java`` class](/app/src/main/java/com/judix/admob/Admob.java )
 * 5.advertising activity to show oncreate activity:
 ```
   MobileAds.initialize(this, "ca-app-pub-3940256099942544~3347511713"); //TEST KEY
