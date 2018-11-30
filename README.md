@@ -32,6 +32,7 @@ implementation 'com.google.android.gms:play-services-ads:17.1.1'
 ```
 * KEYs have been added for the ad from AdMob to String.xml.
 ```
+  //Test ads key
  <string name="admob_showIntersitial_ad_unit_id">ca-app-pub-3940256099942544/1033173712</string>
  <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
 ```
