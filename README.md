@@ -13,10 +13,10 @@ implementation 'com.google.android.gms:play-services-ads:17.1.1'
     <application>
         <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
         <meta-data
-            // ---
+            
             android:name="com.google.android.gms.ads.APPLICATION_ID"
             android:value="[ADMOB_APP_ID]"/>
-            // ---
+           
     </application>
 </manifest>
 ```
