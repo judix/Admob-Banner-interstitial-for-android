@@ -20,6 +20,8 @@ implementation 'com.google.android.gms:play-services-ads:17.1.1'
     </application>
 </manifest>
 ```
+### AdMob App ID:
+<img src="/screenshot/admob_app_id .png" width=800>
 * Before loading ads, have your app initialize the Mobile Ads SDK by calling ``MobileAds.initialize()`` with your AdMob App ID. This needs to be done only once, ideally at app launch.
 
     Here's an example of how to call the ``initialize()`` method in an Activity
